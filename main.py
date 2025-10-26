@@ -27,7 +27,7 @@ products=[
 
 #---------------------------------------------
 # MongoDB connection URI (replace with your actual URI)
-MONGO_URI = "mongodb://localhost:27017"
+MONGO_URI = os.getenv("MONGO_URI")
 
 # Database name
 DB_NAME = "inventory_db"
