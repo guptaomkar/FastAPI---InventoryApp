@@ -3,6 +3,7 @@ from model import Product
 from fastapi.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
+import os
 
 app=FastAPI()
 
