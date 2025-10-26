@@ -5,7 +5,7 @@ import TaglineSection from "./TaglineSection";
 import BASE_URL from "./config";
 
 const api = axios.create({
-  baseURL: BASE_URL || "http://localhost:8000,
+  baseURL: BASE_URL || "http://localhost:8000",
 });
 
 function App() {
